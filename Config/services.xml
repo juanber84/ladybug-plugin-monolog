@@ -1,0 +1,24 @@
+{
+    "name": "juanber84/ladybug-plugin-monolog",
+    "type": "ladybug-plugin",
+    "description": "Monolog plugin for ladybug",
+    "keywords": ["ladybug", "plugin", "monolog"],
+    "license": "MIT",
+    "require": {
+        "raulfraile/ladybug-installer": "~1.0.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.8.0",
+        "raulfraile/ladybug": "~1.0.0",
+        "symfony/http-foundation": "*"
+    },
+    "extra": {
+        "ladybug_name": "Monolog"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ladybug\\Plugin\\Monolog\\": ""
+        }
+    },
+    "target-dir": "Ladybug/Plugin/Monolog"
+}
