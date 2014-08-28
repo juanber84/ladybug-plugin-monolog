@@ -20,6 +20,5 @@
             "Ladybug\\Plugin\\Monolog\\": ""
         }
     },
-    "target-dir": "Ladybug/Plugin/Monolog",
-    "minimum-stability": "dev"
+    "target-dir": "Ladybug/Plugin/Monolog"
 }
