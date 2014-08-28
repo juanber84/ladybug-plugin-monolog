@@ -18,7 +18,8 @@
     "autoload": {
         "psr-0": {
             "Ladybug\\Plugin\\Monolog\\": ""
-        }
+        },
+        "files": ["Resources/helpers.php"]
     },
     "target-dir": "Ladybug/Plugin/Monolog"
 }
