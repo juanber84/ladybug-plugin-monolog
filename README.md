@@ -19,7 +19,7 @@ $var = array(
 ladybug_logger_dump($var);
 ```
 
-Output in your log:
+Output in your log (log/ladybug.log is the path of default output):
 
 	[2014-09-01  21:09:49] LADYBUG: array(2)
 	   [0]: array(2)
