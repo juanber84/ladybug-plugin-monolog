@@ -28,3 +28,8 @@ Output in your log:
 	      [age]: int 27
 
 	/Users/juanber/Desktop/lady/index.php:18
+
+If you can put the output in other file try:
+
+	ladybug_logger_set_path( /** your path **/ );
+	ladybug_logger_dump($var);
