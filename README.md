@@ -17,7 +17,7 @@ Monolog helper for ladybug:
 
 	ladybug_logger_dump($var);
 
-Output in log.
+Output in your log:
 
 	[2014-09-01  21:09:49] LADYBUG: array(2)
 	   [0]: array(2)
