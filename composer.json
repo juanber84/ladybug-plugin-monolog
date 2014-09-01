@@ -5,6 +5,7 @@
     "keywords": ["ladybug", "plugin", "monolog"],
     "license": "MIT",
     "require": {
+        "raulfraile/ladybug": "dev-master",
         "raulfraile/ladybug-installer": "~1.0.0",
         "monolog/monolog": "1.10.0"
     },
