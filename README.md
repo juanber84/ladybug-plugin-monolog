@@ -31,7 +31,7 @@ Output in your log:
 
 	/Users/juanber/Desktop/lady/index.php:18
 
-If you can put the output in other file try:
+If you can write the output in other file, try this:
 
 ``` php
 <?php
