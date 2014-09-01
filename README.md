@@ -23,7 +23,7 @@ Output in your log (logs/ladybug.log is the path of default output):
 
 	[2014-09-01  21:09:49] LADYBUG: array(2)
 	   [0]: array(2)
-	      [name]: string (4) "pepe"
+	      [name]: string (4) "Raul"
 	      [age]: int 29
 	   [1]: array(2)
 	      [name]: string (4) "John"
