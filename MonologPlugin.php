@@ -29,7 +29,8 @@ class MonologPlugin implements PluginInterface
     public static function registerHelpers()
     {
         return array(
-            'ladybug_logger_dump'
+            'ladybug_logger_dump',
+            'ladybug_logger_set_path',
         );
     }
 
