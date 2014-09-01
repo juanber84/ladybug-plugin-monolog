@@ -38,3 +38,11 @@ If you can put the output in other file try:
 ladybug_logger_set_path( /** your path **/ );
 ladybug_logger_dump($var);
 ```
+
+Install with composer:
+
+	{
+	    "require": {
+	        "juanber84/ladybug-plugin-monolog": "dev-master"
+	    }
+	}
