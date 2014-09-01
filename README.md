@@ -3,19 +3,21 @@ ladybug-plugin-monolog
 
 Monolog helper for ladybug:
 
-	<?php
-	$var = array(
-	    array(
-	        'name' => 'Raul',
-	        'age' => 29
-	    ),
-	    array(
-	        'name' => 'John',
-	        'age' => 27
-	    )
-	);
+``` php
+<?php
+$var = array(
+    array(
+        'name' => 'Raul',
+        'age' => 29
+    ),
+    array(
+        'name' => 'John',
+        'age' => 27
+    )
+);
 
-	ladybug_logger_dump($var);
+ladybug_logger_dump($var);
+```
 
 Output in your log:
 
@@ -31,5 +33,8 @@ Output in your log:
 
 If you can put the output in other file try:
 
-	ladybug_logger_set_path( /** your path **/ );
-	ladybug_logger_dump($var);
+``` php
+<?php
+ladybug_logger_set_path( /** your path **/ );
+ladybug_logger_dump($var);
+```
