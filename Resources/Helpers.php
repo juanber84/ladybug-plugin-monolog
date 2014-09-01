@@ -2,7 +2,7 @@
 
 // helpers
 
-$GLOBALS['PATHLADYBUGPLUGINMONOLOG'] = '';
+$GLOBALS['PATHLADYBUGPLUGINMONOLOG'] = 'logs/ladybug.log';
 
 /**
  * Gets the logger
@@ -16,7 +16,7 @@ function getMonolog()
     // $output = "%datetime% > %level_name% > %message% %context% %extra%\n";
     $output = "[%datetime%] LADYBUG: %message% %context% %extra%\n";
     $formatter = new \Monolog\Formatter\LineFormatter($output, $dateFormat, true);
-    $stream = new \Monolog\Handler\StreamHandler('logs/prueba.log', \Monolog\Logger::DEBUG);
+    $stream = new \Monolog\Handler\StreamHandler($GLOBALS['PATHLADYBUGPLUGINMONOLOG'], \Monolog\Logger::DEBUG);
     $stream->setFormatter($formatter);
     $ladyLogger = new \Monolog\Logger('ladybug');
     $ladyLogger->pushHandler($stream);
