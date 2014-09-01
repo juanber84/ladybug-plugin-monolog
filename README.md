@@ -43,6 +43,7 @@ Install with composer:
 
 	{
 	    "require": {
+        	"raulfraile/ladybug": "dev-master",,
 	        "juanber84/ladybug-plugin-monolog": "dev-master"
 	    }
 	}
