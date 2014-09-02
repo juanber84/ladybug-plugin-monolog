@@ -21,7 +21,7 @@
         "psr-0": {
             "Ladybug\\Plugin\\Monolog\\": ""
         },
-        "files": ["Resources/helpers.php"]
+        "files": ["Resources/Helpers.php"]
     },
     "target-dir": "Ladybug/Plugin/Monolog"
 }
